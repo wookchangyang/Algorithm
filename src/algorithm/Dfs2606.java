@@ -22,6 +22,7 @@ public class Dfs2606 {
 			return;
 		}
 		
+		
 		for(int i = 0 ; i < net.length ; i++) {
 			if(net[i][0] == comNumber) {
 				dfs(net[i][1]);
